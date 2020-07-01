@@ -1,0 +1,6 @@
+Variables: Son contenedores de valores que pueden ir cambiando según se necesite.
+Strings: Son objetos donde se guardan cadenas de texto.
+Funciones: Fragmentos de codigo que realizan un tarea en particular y son reutilizables.
+Declaracione if: Sirven para hacer algo si que la condicion se cumple.
+Booleanos: Estos valores solo pueden ser true(Verdadero) o false(Falso) y sirven para las condiciones donde necesitamos
+saber si algo es Falso o Verdadero.
