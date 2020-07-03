@@ -12,13 +12,7 @@ function crearUsuario() {
   function saludar(){
     return "Hola, mi nombre es" + this.nombre;
   }
-  var opciones = {
-    usuario:"",
-    nombre:"",
-    email:"",
-    password:"",
-
-  }
+  
   function Usuario(opciones) {
     this.nombre = opciones.nombre;
     this.usuario = opciones.usuario;
