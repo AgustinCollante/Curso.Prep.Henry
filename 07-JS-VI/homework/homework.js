@@ -9,10 +9,11 @@ function sumarArray(numeros, cb) {
   // Suma todos los números enteros (int/integers) de un array ("numeros")
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
-  var sumaTotal = numeros.reduce(function(acc, curr) {
-    return acc + curr;
-  },0);
-  cb(sumaTotal);
+  var suma = 0;
+  for(var i =0; i< numeros.length; i++){
+    suma += numeros[i];
+  }
+  cb(suma);
 }
 
 function forEach(array, cb) {
